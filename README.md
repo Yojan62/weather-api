@@ -29,5 +29,6 @@ This project is a weather API wrapper service that fetches weather data from the
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgements
+   - https://roadmap.sh/projects/weather-api-wrapper-service
    - Visual Crossing for providing the weather API.
    - Redis for the caching solution.
