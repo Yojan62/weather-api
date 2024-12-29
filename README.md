@@ -15,9 +15,19 @@ This project is a weather API wrapper service that fetches weather data from the
 - Redis server (local or online)
 - Visual Crossing API key
 
-## Installation
+## Usage
 
-1. **Clone the repository**:
+1. Run the script:
    ```bash
-   git clone https://github.com/Yojan62/weather-api-project.git
-   cd weather-api-project
+   python main.py
+2. Enter the city name when prompted to fetch the weather data for that city.
+
+3. Check the output:
+   - The weather data will be saved to a file named weather_output.json.
+
+## Contributing 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Acknowledgements
+   - Visual Crossing for providing the weather API.
+   - Redis for the caching solution.
