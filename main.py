@@ -84,7 +84,7 @@ city = input("Enter the city name: ")
 weather_data = get_weather(city)
 
 # Save the weather data to a file
-with open('weather_output.txt', 'w') as f:
-    f.write(json.dumps(weather_data, indent=4))
+with open('weather_output.json', 'w') as f:
+    json.dump(weather_data, f, indent=4)
 
-print("Output saved to weather_output.txt")
+print("Output saved to weather_output.json")
